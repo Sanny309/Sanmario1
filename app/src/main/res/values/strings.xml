@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Sanmario</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_link_signup">signup</string>
+    <string name="hint_email">email</string>
+    <string name="hint_password">password</string>
+    <string name="hint_gender">iam</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="btn_sign_up">sign up</string>
+    <string name="btn_link_login">login </string>
+
+    <string name="hint_dob">Mobile no.</string>
+    <string name="areaid">Area Id</string>
+    <string name="admin">user details</string>
+    <string name="addEMp">ADD employee</string>
+    <string name="adduser">ADD USER</string>
+    <string name="usename">user name</string>
+    <string name="password">password</string>
+    <string name="area_id">area ic</string>
+    <string name="register">register</string>
+    <string name="add_dotor">add doctor</string>
+    <string name="add_dotor_details">add doctor</string>
+    <string name="mobile">mobile no.</string>
+    <string name="fullname">Full name </string>
+    <string name="title_activity_user__maps">Map</string>
+    <string name="userActivity">User Activity</string>
+    <string name="current_Location">curent location</string>
+    <string name="name">name</string>
+    <string name="workarea_id">work area id</string>
+    <string name="qualification">qualification</string>
+    <string name="address">address</string>
+    <string name="user">user</string>
+
+
+</resources>

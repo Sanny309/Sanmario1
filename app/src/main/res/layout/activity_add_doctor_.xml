@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_doctor_Activity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/login_button_background"
+        android:text="@string/add_dotor"
+        android:textColor="@color/userdetails" />
+
+
+        <EditText
+            android:id="@+id/doctor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name" />
+
+        <EditText
+            android:id="@+id/doctor_workarea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/workarea_id" />
+
+        <EditText
+            android:id="@+id/doctor_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mobile" />
+
+        <EditText
+            android:id="@+id/doctor_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/address" />
+
+        <EditText
+            android:id="@+id/doctor_qualification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/qualification" />
+
+        <Button
+            android:id="@+id/btn_adddoctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/login_button_background"
+            android:hint="@string/register"
+            android:textColorHint="@color/userdetails" />
+
+        <Button
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:background="@color/login_button_background"
+            android:hint="back"
+            android:textColorHint="@color/userdetails"
+            android:layout_marginTop="10dp"
+            android:id="@+id/back12"/>
+
+</LinearLayout>

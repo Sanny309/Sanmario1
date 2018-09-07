@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Orderlist_Activity"
+    android:orientation="vertical">
+
+
+ <ListView
+     android:layout_width="350dp"
+     android:layout_height="400dp"
+     android:layout_marginTop="20sp"
+     android:layout_marginLeft="20sp"
+     android:id="@+id/orderlist">
+
+ </ListView>
+</LinearLayout>

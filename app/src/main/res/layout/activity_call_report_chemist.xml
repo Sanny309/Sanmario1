@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".call_report_chemist">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:hint="Call Report Chemist"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:hint="user ID"
+            android:id="@+id/user_chemist"
+            android:layout_marginTop="50dp"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:hint="Name"
+            android:id="@+id/name_chemist"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:hint="orderValue"
+            android:id="@+id/ordervalue"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:hint="cheque"
+            android:id="@+id/cheque"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:hint="bank"
+            android:id="@+id/bank"/>
+       <Button
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:text="submit"
+           android:background="@color/login_button_background"
+           android:textColor="@color/userdetails"
+           android:layout_marginTop="20sp"
+           android:id="@+id/submit_report_chemist"/>
+    </LinearLayout>
+
+</ScrollView>
